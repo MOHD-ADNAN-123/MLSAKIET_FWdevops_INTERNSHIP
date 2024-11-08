@@ -1,0 +1,83 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Header and profile container styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 18px;
+    color: #ddd;
+}
+
+/* Social media links section */
+.social-links {
+    margin-top: 40px;
+}
+
+.social-links h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-links ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    color: #4CAF50;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 50px;
+    color: #777;
+    font-size: 14px;
+    padding: 10px 0;
+}
